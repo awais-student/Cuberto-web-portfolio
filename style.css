@@ -1,0 +1,179 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Roboto Flex;
+}
+
+*::selection{
+    color: white;
+    background-color: black;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+}
+
+.nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+
+.nav img{
+    width: 100px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.right{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.right a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.right i{
+    gap: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.develop{
+    padding: 3vw 10vw;
+}
+
+.develop h1{
+    font-size: 10vw;
+    line-height: 1;
+    letter-spacing: 0.2;
+    font-weight: lighter;
+}
+
+/* .develop h1:hover{
+    color: grey;
+} */
+
+.develop span{
+    font-weight: 100; 
+}
+
+.vdo{
+    padding-top: 70px;
+}
+
+.cuberto{
+    display: flex;
+    width: 100%;
+    padding: 2vw 5vw;
+}
+
+.cuberto .left{
+    width: 50%;
+    height: 100vh;
+}
+
+.left video{
+    padding: 3vw 4vw;
+    width: 100%;
+    height: 100%;
+}
+
+.cuberto .right{
+    width: 50%;
+    height: 100vh;
+}
+
+.right{
+    padding-left: 5vw;
+    padding-bottom: 10vw;
+}
+
+.right h1{
+    font-weight: 400;
+}
+
+.slides{
+    display: flex;
+    justify-content: space-between;
+    padding: 4vw 5vw;
+}
+
+.slide{
+    width: 30%;
+}
+
+.slide .video{
+    width: 100%;
+    height: 230px;
+    cursor: pointer;
+}
+
+.slide .tag{
+    width: fit-content;
+    padding: 10px 22px;
+    margin: 30px 20px;
+    background-color: #dadada;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.slide h3{
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 20px;  
+}
+
+.heading{
+    width: 100%;
+    height: 80vh;
+}
+
+.heading h1{
+    padding: 5vw 10vw;
+    font-size: 12vw;
+    font-family: arial;
+    font-weight: 100;
+    line-height: 1;
+}
+
+.bolls{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.left1{
+    width: 50%;
+    height: 100vh;
+}
+
+.right1{
+    width: 50%;
+    height: 100vh;
+}
+
+.right1 p{
+    font-size: 23px;
+    padding-top: 10vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
+
